@@ -87,6 +87,13 @@ main{
     height: 41.6rem;
     object-fit: cover;
     border-radius: 6px;
+
+    transform: 300ms;
+}
+
+.cards img:hover{
+    transform: scale(1.1);
+
 }
 
 .cards h2{
