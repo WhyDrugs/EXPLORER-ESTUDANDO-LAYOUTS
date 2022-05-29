@@ -21,7 +21,7 @@
 }
 
 header{
-    margin-top: 10rem 0 8rem;
+    margin: 10rem 0 6rem;
     font-family: var(--ff-heading);
     text-align: center;
 
@@ -123,4 +123,21 @@ main{
     align-items: center;
 
 
+}
+
+header{
+    animation-name: topdown;
+    animation-duration: 700ms;
+}
+
+@keyframes topdown{
+    0%{
+        opacity: 0;
+        transform: translateY(-15px);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
